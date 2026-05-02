@@ -45,9 +45,8 @@ cd naruto-jutsu-visualizer
 npm install
 ```
 
-### Adding Video Assets
-
-The jutsu effect videos are not included in this repository due to file size. Add the following MP4 files to the `public/assets/` folder:
+### Video Assets
+The jutsu effect videos are included in `public/assets/`. No additional setup needed.
 
 ```
 public/
