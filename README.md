@@ -1,19 +1,19 @@
 # Naruto Jutsu Hand Gesture Visualizer
 
-A real-time hand gesture recognition web app built with React and MediaPipe Hands. Point your webcam and use hand gestures to cast Naruto jutsu visual effects overlaid on your live camera feed.
+A real-time hand gesture recognition web app built with React and MediaPipe Hands. Point your webcam and use hand gestures to cast Naruto jutsu visual effects overlaid on your live camera feed. Both hands are tracked simultaneously — combine gestures to activate multiple jutsu at once.
 
-## Demo
-
-![Naruto Jutsu Demo](https://i.imgur.com/placeholder.png)
+🔴 **[Live Demo → https://naruto-jutsu-eosin.vercel.app](https://naruto-jutsu-eosin.vercel.app)**
 
 ## Gestures
 
-| Gesture | Effect |
-|---|---|
-| Open palm (left hand) | Rasengan |
-| Open palm (right hand) | Chidori |
-| Closed fist with thumb up | Fireball |
-| Pinch (thumb + index finger) | Hollow Purple |
+| Gesture | Hand | Effect |
+|---|---|---|
+| Open palm | Left hand | Rasengan |
+| Open palm | Right hand | Chidori |
+| Closed fist with thumb up | Either hand | Fireball |
+| Pinch (thumb + index finger) | Either hand | Hollow Purple |
+
+> 💡 **Tip:** Use both hands at the same time to cast multiple jutsu simultaneously — try Rasengan + Chidori at once!
 
 ## How It Works
 
@@ -21,7 +21,7 @@ A real-time hand gesture recognition web app built with React and MediaPipe Hand
 - Detects hand poses by comparing distances between landmark points
 - Renders effects using the **Canvas 2D API** — Hollow Purple is a fully custom particle system with radial gradients and swirling ring animations at 60fps
 - Video effects (Rasengan, Chidori, Fireball) are overlaid using `mix-blend-mode: screen` for a transparent compositing effect
-- Supports **dual-hand tracking** simultaneously
+- Supports **dual-hand tracking simultaneously** — multiple jutsu can be active at the same time
 
 ## Tech Stack
 
@@ -46,12 +46,12 @@ npm install
 ```
 
 ### Video Assets
-The jutsu effect videos are included in `public/assets/`. No additional setup needed.
 
+The jutsu effect videos are included in `public/assets/`. No additional setup needed.
 ```
 public/
 └── assets/
-    ├── rasengan.mp4
+    ├── naruto.mp4
     ├── chidori.mp4
     └── fireball.mp4
 ```
@@ -71,7 +71,7 @@ Then open `https://localhost:5173` in your browser.
 ```
 naruto-jutsu/
 ├── public/
-│   └── assets/          # Video effect files (not included)
+│   └── assets/          # Video effect files
 ├── src/
 │   ├── components/
 │   │   └── Camera.jsx   # Main gesture detection and rendering logic
