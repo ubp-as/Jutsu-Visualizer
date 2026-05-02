@@ -40,8 +40,8 @@ A real-time hand gesture recognition web app built with React and MediaPipe Hand
 ### Installation
 
 ```bash
-git clone https://github.com/ubp-as/naruto-jutsu-visualizer.git
-cd naruto-jutsu-visualizer
+git clone https://github.com/ubp-as/Naruto-Jutsu-Visualizer.git
+cd Naruto-Jutsu-Visualizer
 npm install
 ```
 
