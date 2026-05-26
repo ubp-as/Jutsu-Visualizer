@@ -347,8 +347,8 @@ export default function CameraComponent(){
 
   return(
     <>
-      <video ref={videoRef} autoPlay playsInline></video>
-      <canvas ref={canvasRef}></canvas>
+      <video id="webcam" ref={videoRef} autoPlay playsInline></video>
+      <canvas id="landmark-canvas" ref={canvasRef}></canvas>
 
       <canvas
         ref={fxCanvasRef}
@@ -359,7 +359,8 @@ export default function CameraComponent(){
           height:"100vh",
           pointerEvents:"none",
           zIndex:10,
-          mixBlendMode:"screen"
+          mixBlendMode:"screen",
+          transform:"none"
         }}
       />
 
