@@ -2,7 +2,7 @@
 
 A real-time hand gesture recognition web app built with React and MediaPipe Hands. Point your webcam and use hand gestures to cast jutsu visual effects overlaid on your live camera feed. Both hands are tracked simultaneously — combine gestures to activate multiple jutsu at once.
 
-**🔴 Live Demo → [naruto-jutsu.vercel.app](https://naruto-jutsu-eosin.vercel.app)**
+**🔴 Live Demo → [naruto-jutsu-eosin.vercel.app](https://naruto-jutsu-eosin.vercel.app)**
 
 ---
 
