@@ -6,7 +6,7 @@ const jutsuData = [
     id: 'rasengan',
     name: 'Rasengan',
     kanji: '螺旋丸',
-    hand: 'left',
+    hand: 'right',
     color: '#38bdf8',
     colorDark: '#0ea5e9',
     glow: 'rgba(56,189,248,0.6)',
@@ -14,7 +14,7 @@ const jutsuData = [
     anime: 'Naruto',
     gesture: 'Open Palm',
     instructions: [
-      'Extend your LEFT hand toward the camera',
+      'Extend your RIGHT hand toward the camera',
       'Spread all five fingers wide open',
       'Keep your palm fully flat and facing forward',
       'Hold the pose steady — blue chakra will spiral!'
@@ -24,7 +24,7 @@ const jutsuData = [
     id: 'chidori',
     name: 'Chidori',
     kanji: '千鳥',
-    hand: 'right',
+    hand: 'left',
     color: '#a78bfa',
     colorDark: '#7c3aed',
     glow: 'rgba(167,139,250,0.6)',
@@ -32,7 +32,7 @@ const jutsuData = [
     anime: 'Naruto',
     gesture: 'Open Palm',
     instructions: [
-      'Extend your RIGHT hand toward the camera',
+      'Extend your LEFT hand toward the camera',
       'Spread all five fingers wide open',
       'Keep your palm fully flat and facing forward',
       'Hold the pose — lightning will crackle!'
